@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  height: 600px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s;
+  border-radius: 70px;
+  margin: 0 10px;
+}
+
+.img-container1 {
+  background-image: url(../imgs/1.jpg);
+  width: 60%;
+}
+
+.img-container2 {
+  background-image: url(../imgs/2.jpg);
+  width: 10%;
+}
+
+.img-container3 {
+  background-image: url(../imgs/3.jpg);
+  width: 10%;
+}
+
+.img-container4 {
+  background-image: url(../imgs/4.jpg);
+  width: 10%;
+}
+
+.img-container5 {
+  background-image: url(../imgs/5.jpg);
+  width: 10%;
+}
